@@ -7,3 +7,4 @@ class Track:
     def play(self):
         print(self.name, 'Played')
         self.artist.counter += 1
+        print("Hello World")
